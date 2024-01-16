@@ -1,0 +1,23 @@
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 30px;
+}
+.instruction {
+  padding: 16px;
+  width: 80%;
+}
+.submit-button {
+  padding: 16px;
+}
+
+footer {
+  margin-top: 30px;
+}
