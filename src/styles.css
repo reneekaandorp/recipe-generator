@@ -1,8 +1,13 @@
-.container {
-  margin: 120px auto;
-  max-width: 600px;
+body {
   background-image: url("../img/cutting-board.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 800px;
 }
 
 .icon {
@@ -27,15 +32,45 @@ h3 {
   font-size: 24px;
 }
 
+ul,
+small {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 form {
   margin-bottom: 30px;
 }
+
 .instruction {
   padding: 16px;
   width: 80%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
 }
+
 .submit-button {
-  padding: 16px;
+  padding: 16px 36px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  float: right;
+}
+
+.recipe {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.recipe-text {
+  margin: 25px;
+}
+
+.recipe-text h2 {
+  margin-top: 0;
 }
 
 footer {
