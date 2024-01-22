@@ -34,7 +34,8 @@ h3 {
 
 ul,
 ol,
-small {
+small,
+p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -47,33 +48,49 @@ form {
   width: 80%;
   border: 1px solid grey;
   border-radius: 5px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .submit-button {
   padding: 16px 36px;
   border: 1px solid grey;
   border-radius: 5px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
   float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .recipe {
   background-color: white;
   border: 1px solid grey;
   border-radius: 5px;
+  padding: 25px;
 }
 
-.recipe-text {
-  margin: 25px;
-}
-
-.recipe-text h2 {
+.recipe h2 {
   margin-top: 0;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
   margin-top: 30px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
