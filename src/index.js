@@ -1,7 +1,14 @@
 function displayRecipe(response) {
-  let generatedRecipe = document.querySelector("#generated-recipe");
-  generatedRecipe.innerHTML = `${response.data.answer}`;
+  new Typewriter("#generated-recipe", {
+    strings: response.data.answer,
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
 }
+
+//let generatedRecipe = document.querySelector("#generated-recipe");
+// generatedRecipe.innerHTML = `${response.data.answer}`;
 
 function generateRecipe(event) {
   event.preventDefault();
