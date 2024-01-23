@@ -103,6 +103,10 @@ footer {
 }
 
 @media (max-width: 900px) {
+  body {
+    background-position: left;
+  }
+
   h1 {
     font-size: 30px;
   }
