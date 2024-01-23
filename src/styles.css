@@ -1,7 +1,13 @@
+html {
+  min-height: 100%;
+}
+
 body {
   background-image: url("../img/cutting-board.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  min-height: 100%;
   line-height: 1.5;
 }
 
@@ -78,6 +84,7 @@ form {
 
 footer {
   margin-top: 30px;
+  text-align: center;
 }
 
 .generating {
@@ -92,5 +99,23 @@ footer {
 @-webkit-keyframes blink-animation {
   to {
     visibility: hidden;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .instruction {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .submit-button {
+    float: none;
+    display: block;
+    margin: 15px auto;
+    padding: 12px 20px;
   }
 }

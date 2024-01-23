@@ -7,9 +7,6 @@ function displayRecipe(response) {
   });
 }
 
-//let generatedRecipe = document.querySelector("#generated-recipe");
-// generatedRecipe.innerHTML = `${response.data.answer}`;
-
 function generateRecipe(event) {
   event.preventDefault();
 
